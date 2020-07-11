@@ -67,7 +67,7 @@ def token_frequency(tokens=None, tf={}, relative=False):
 
 #### PROCESSING ####
 # 1. Get files from folder
-filepath = '../austen_alcott/*.txt'
+filepath = './austen_alcott/*.txt'
 files = glob.glob(filepath)
 labels = [os.path.split(f)[1][:-4].replace('_', ' ').title() for f in files]
 
