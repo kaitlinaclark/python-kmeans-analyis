@@ -78,7 +78,7 @@ def chunk(text, chunk_size=1000):
 
 #### PROCESSING ####
 # 1. Get files from folder
-filepath = '../shakespeare/*.txt'
+filepath = './shakespeare/*.txt'
 files = glob.glob(filepath)
 # labels = [os.path.split(f)[1][:-4].replace('_', ' ').title() for f in files]
 
